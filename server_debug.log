@@ -1,0 +1,118 @@
+2026-07-09 19:57:56,330 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-09 19:57:56,330 INFO: [33mPress CTRL+C to quit[0m
+2026-07-09 19:57:56,339 INFO:  * Restarting with watchdog (windowsapi)
+2026-07-09 19:57:56,799 WARNING:  * Debugger is active!
+2026-07-09 19:57:56,801 INFO:  * Debugger PIN: 139-566-585
+2026-07-09 19:58:58,970 INFO:  * Detected change in 'd:\\Coding\\Coding Material\\Projects\\Book_Suggestor\\app.py', reloading
+2026-07-09 19:58:59,033 INFO:  * Restarting with watchdog (windowsapi)
+2026-07-09 21:59:47,199 WARNING:  * Debugger is active!
+2026-07-09 21:59:47,201 INFO:  * Debugger PIN: 139-566-585
+2026-07-09 22:05:20,533 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-09 22:05:20,533 INFO: [33mPress CTRL+C to quit[0m
+2026-07-09 22:05:20,542 INFO:  * Restarting with watchdog (windowsapi)
+2026-07-09 22:05:20,909 WARNING:  * Debugger is active!
+2026-07-09 22:05:20,911 INFO:  * Debugger PIN: 139-566-585
+2026-07-09 22:05:35,625 INFO: 127.0.0.1 - - [09/Jul/2026 22:05:35] "GET / HTTP/1.1" 200 -
+2026-07-09 22:05:35,714 INFO: 127.0.0.1 - - [09/Jul/2026 22:05:35] "GET /static/script.js HTTP/1.1" 200 -
+2026-07-09 22:05:35,721 INFO: 127.0.0.1 - - [09/Jul/2026 22:05:35] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-09 22:05:41,898 INFO: 127.0.0.1 - - [09/Jul/2026 22:05:41] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:05:45,083 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:06:02,372 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 841
+2026-07-09 22:06:02,378 INFO: 127.0.0.1 - - [09/Jul/2026 22:06:02] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:06:16,067 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:06:38,319 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 882
+2026-07-09 22:06:38,321 INFO: 127.0.0.1 - - [09/Jul/2026 22:06:38] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:06:56,705 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:07:11,636 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 850
+2026-07-09 22:07:11,638 INFO: 127.0.0.1 - - [09/Jul/2026 22:07:11] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:07:40,233 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:07:57,768 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 856
+2026-07-09 22:07:57,771 INFO: 127.0.0.1 - - [09/Jul/2026 22:07:57] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:08:12,872 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:08:55,164 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 931
+2026-07-09 22:08:55,167 INFO: 127.0.0.1 - - [09/Jul/2026 22:08:55] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:09:09,609 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:09:41,320 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 868
+2026-07-09 22:09:41,322 INFO: 127.0.0.1 - - [09/Jul/2026 22:09:41] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:11:57,122 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:12:43,444 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 918
+2026-07-09 22:12:43,446 INFO: 127.0.0.1 - - [09/Jul/2026 22:12:43] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:12:55,337 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:13:05,447 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 872
+2026-07-09 22:13:05,451 INFO: 127.0.0.1 - - [09/Jul/2026 22:13:05] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:13:29,553 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:13:58,413 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 914
+2026-07-09 22:13:58,417 INFO: 127.0.0.1 - - [09/Jul/2026 22:13:58] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:14:05,543 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:14:14,532 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 2346
+2026-07-09 22:14:14,534 INFO: 127.0.0.1 - - [09/Jul/2026 22:14:14] "POST /api/recommend HTTP/1.1" 200 -
+2026-07-09 22:15:02,746 INFO:  * Detected change in 'd:\\Coding\\Coding Material\\Projects\\Book_Suggestor\\app.py', reloading
+2026-07-09 22:15:02,805 INFO:  * Restarting with watchdog (windowsapi)
+2026-07-09 22:15:03,260 WARNING:  * Debugger is active!
+2026-07-09 22:15:03,262 INFO:  * Debugger PIN: 139-566-585
+2026-07-09 22:15:56,090 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-09 22:15:56,090 INFO: [33mPress CTRL+C to quit[0m
+2026-07-09 22:15:56,099 INFO:  * Restarting with watchdog (windowsapi)
+2026-07-09 22:15:56,449 WARNING:  * Debugger is active!
+2026-07-09 22:15:56,451 INFO:  * Debugger PIN: 139-566-585
+2026-07-09 22:16:10,820 INFO: 127.0.0.1 - - [09/Jul/2026 22:16:10] "GET / HTTP/1.1" 200 -
+2026-07-09 22:16:10,908 INFO: 127.0.0.1 - - [09/Jul/2026 22:16:10] "GET /static/script.js HTTP/1.1" 200 -
+2026-07-09 22:16:10,909 INFO: 127.0.0.1 - - [09/Jul/2026 22:16:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-09 22:16:12,092 INFO: 127.0.0.1 - - [09/Jul/2026 22:16:12] "GET / HTTP/1.1" 200 -
+2026-07-09 22:16:12,111 INFO: 127.0.0.1 - - [09/Jul/2026 22:16:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-09 22:16:12,113 INFO: 127.0.0.1 - - [09/Jul/2026 22:16:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-07-09 22:16:14,810 INFO: 127.0.0.1 - - [09/Jul/2026 22:16:14] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:16:24,251 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:16:47,139 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 869
+2026-07-09 22:16:47,146 INFO: 127.0.0.1 - - [09/Jul/2026 22:16:47] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:16:54,662 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:17:17,112 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 856
+2026-07-09 22:17:17,114 INFO: 127.0.0.1 - - [09/Jul/2026 22:17:17] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:17:27,399 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:17:40,832 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 897
+2026-07-09 22:17:40,834 INFO: 127.0.0.1 - - [09/Jul/2026 22:17:40] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:17:51,627 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:18:11,290 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 925
+2026-07-09 22:18:11,293 INFO: 127.0.0.1 - - [09/Jul/2026 22:18:11] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:19:03,593 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:19:31,423 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 2149
+2026-07-09 22:19:31,424 INFO: 127.0.0.1 - - [09/Jul/2026 22:19:31] "POST /api/recommend HTTP/1.1" 200 -
+2026-07-09 22:27:53,833 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-09 22:27:53,833 INFO: [33mPress CTRL+C to quit[0m
+2026-07-09 22:27:53,843 INFO:  * Restarting with watchdog (windowsapi)
+2026-07-09 22:27:54,295 WARNING:  * Debugger is active!
+2026-07-09 22:27:54,297 INFO:  * Debugger PIN: 139-566-585
+2026-07-09 22:27:55,512 INFO: 127.0.0.1 - - [09/Jul/2026 22:27:55] "GET / HTTP/1.1" 200 -
+2026-07-09 22:27:55,572 INFO: 127.0.0.1 - - [09/Jul/2026 22:27:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-09 22:27:55,573 INFO: 127.0.0.1 - - [09/Jul/2026 22:27:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-07-09 22:27:58,559 INFO: 127.0.0.1 - - [09/Jul/2026 22:27:58] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:28:01,456 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
+2026-07-09 22:28:26,531 DEBUG: https://integrate.api.nvidia.com:443 "POST /v1/chat/completions HTTP/1.1" 200 823
+2026-07-09 22:28:26,533 INFO: 127.0.0.1 - - [09/Jul/2026 22:28:26] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:29:46,357 INFO:  * Detected change in 'd:\\Coding\\Coding Material\\Projects\\Book_Suggestor\\app.py', reloading
+2026-07-09 22:29:46,405 INFO:  * Restarting with watchdog (windowsapi)
+2026-07-09 22:29:46,877 WARNING:  * Debugger is active!
+2026-07-09 22:29:46,879 INFO:  * Debugger PIN: 139-566-585
+2026-07-09 22:29:47,200 INFO:  * Detected change in 'd:\\Coding\\Coding Material\\Projects\\Book_Suggestor\\app.py', reloading
+2026-07-09 22:29:47,251 INFO:  * Restarting with watchdog (windowsapi)
+2026-07-09 22:29:47,668 WARNING:  * Debugger is active!
+2026-07-09 22:29:47,670 INFO:  * Debugger PIN: 139-566-585
+2026-07-09 22:30:02,352 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-09 22:30:02,353 INFO: [33mPress CTRL+C to quit[0m
+2026-07-09 22:30:02,361 INFO:  * Restarting with watchdog (windowsapi)
+2026-07-09 22:30:02,733 WARNING:  * Debugger is active!
+2026-07-09 22:30:02,735 INFO:  * Debugger PIN: 139-566-585
+2026-07-09 22:30:22,216 INFO:  * Detected change in 'd:\\Coding\\Coding Material\\Projects\\Book_Suggestor\\app.py', reloading
+2026-07-09 22:30:22,270 INFO:  * Restarting with watchdog (windowsapi)
+2026-07-09 22:30:22,732 WARNING:  * Debugger is active!
+2026-07-09 22:30:22,734 INFO:  * Debugger PIN: 139-566-585
+2026-07-09 22:30:32,736 INFO: 127.0.0.1 - - [09/Jul/2026 22:30:32] "GET / HTTP/1.1" 200 -
+2026-07-09 22:30:32,819 INFO: 127.0.0.1 - - [09/Jul/2026 22:30:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-09 22:30:32,821 INFO: 127.0.0.1 - - [09/Jul/2026 22:30:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-07-09 22:30:36,063 INFO: 127.0.0.1 - - [09/Jul/2026 22:30:36] "POST /api/next_question HTTP/1.1" 200 -
+2026-07-09 22:30:39,941 DEBUG: Starting new HTTPS connection (1): integrate.api.nvidia.com:443
