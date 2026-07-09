@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 elements.startHeadline.innerHTML = "Find a Movie<br>Worth Your Time.";
             } else if (selectedCategory === 'music') {
                 elements.startHeadline.innerHTML = "Find Music<br>Worth Your Time.";
+            } else if (selectedCategory === 'series') {
+                elements.startHeadline.innerHTML = "Find a Series<br>Worth Your Time.";
+            } else if (selectedCategory === 'anime') {
+                elements.startHeadline.innerHTML = "Find Anime<br>Worth Your Time.";
             }
             
             elements.categorySection.classList.add('hidden');
@@ -204,7 +208,9 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.opacity = '0';
 
             const creatorRole = selectedCategory === 'movie' ? 'Directed by' : 
-                                selectedCategory === 'music' ? 'By Artist' : 'By';
+                                selectedCategory === 'music' ? 'By Artist' : 
+                                selectedCategory === 'series' ? 'Showrunner:' :
+                                selectedCategory === 'anime' ? 'Studio:' : 'By';
 
             card.innerHTML = `
                 <div class="book-meta">${escapeHtml(item.genre || 'General')}</div>

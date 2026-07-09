@@ -3,9 +3,7 @@ import re
 import json
 import requests
 import logging
-# pyrefly: ignore [missing-import]
 from flask import Flask, render_template, request, jsonify
-# pyrefly: ignore [missing-import]
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -63,6 +61,10 @@ def next_question():
             return jsonify({"question": "What kind of cinematic experiences usually captivate you?", "done": False})
         elif category == "music":
             return jsonify({"question": "What kind of sounds, genres, or vibes are you drawn to lately?", "done": False})
+        elif category == "series":
+            return jsonify({"question": "What kind of TV series or shows keep you binge-watching?", "done": False})
+        elif category == "anime":
+            return jsonify({"question": "What kind of anime worlds or storylines captivate you?", "done": False})
         else:
             return jsonify({"question": "What kind of stories or topics are you usually drawn to?", "done": False})
         
@@ -72,7 +74,9 @@ def next_question():
     roles = {
         "book": "AI Librarian",
         "movie": "AI Film Critic",
-        "music": "AI Music Guru"
+        "music": "AI Music Guru",
+        "series": "AI TV Critic",
+        "anime": "AI Anime Otaku"
     }
     role = roles.get(category, "AI Librarian")
 
@@ -127,7 +131,9 @@ def recommend():
     roles = {
         "book": "sophisticated book recommendation engine acting as a digital librarian",
         "movie": "expert film critic and cinematic recommendation engine",
-        "music": "expert music curator and recommendation engine"
+        "music": "expert music curator and recommendation engine",
+        "series": "expert TV critic and series recommendation engine",
+        "anime": "expert anime curator and recommendation engine"
     }
     role = roles.get(category, "recommendation engine")
 
@@ -136,6 +142,10 @@ def recommend():
         creator_label = "Director"
     elif category == "music":
         creator_label = "Artist"
+    elif category == "series":
+        creator_label = "Showrunner"
+    elif category == "anime":
+        creator_label = "Studio"
 
     system_prompt = f"""
 You are a {role}.

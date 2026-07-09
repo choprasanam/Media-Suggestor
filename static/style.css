@@ -521,3 +521,44 @@ body {
         padding: 1rem;
     }
 }
+
+/* Footer & Source Link Styles */
+.site-footer {
+    margin-top: 5rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid var(--border-color);
+}
+
+.source-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: var(--transition);
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.source-link svg {
+    opacity: 0.7;
+}
+
+.source-link:hover {
+    color: var(--accent-color);
+    border-color: var(--border-color);
+    background: rgba(212, 175, 55, 0.05);
+}
+
+@media (max-width: 600px) {
+    .site-footer {
+        margin-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
